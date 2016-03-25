@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  database: numerology_development
+  template: template0
+  pool: 5
+  host: localhost
+  username: ubuntu
+  password: Sunsh1ne
+    
+test:
+  adapter: postgresql
+  database: numerology_test
+  template: template0
+  pool: 5
+  host: localhost
+  username: ubuntu
+  password: Sunsh1ne
